@@ -27,5 +27,4 @@ class LocalRepositoryMhs(
         mahasiswaDao.updateMahasiswa(mahasiswa)
     }
 
-
 }

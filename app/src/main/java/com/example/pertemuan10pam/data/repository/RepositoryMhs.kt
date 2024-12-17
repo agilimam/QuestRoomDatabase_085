@@ -1,6 +1,6 @@
 package com.example.pertemuan10pam.data.repository
 
-import androidx.room.Update
+
 import com.example.pertemuan10pam.data.entity.Mahasiswa
 import kotlinx.coroutines.flow.Flow
 

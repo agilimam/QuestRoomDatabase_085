@@ -34,7 +34,7 @@ import com.example.pertemuan10pam.ui.navigation.AlamatNavigasi
 import com.example.pertemuan10pam.ui.viewmodel.PenyediaViewModel
 import kotlinx.coroutines.launch
 
-object DestinationInsert: AlamatNavigasi{
+object DestinasiInsert: AlamatNavigasi{
     override val route: String = "inset_mhs"
 }
 @Preview(showBackground = true)

@@ -4,7 +4,7 @@ interface AlamatNavigasi {
     val route : String
 }
 
-object DestinationHome : AlamatNavigasi{
+object DestinasiHome : AlamatNavigasi {
     override val route = "home"
 }
 
@@ -14,8 +14,8 @@ object DestinasiDetail : AlamatNavigasi{
     val routesWithArg = "$route/{$NIM}"
 }
 
-object DestinasiUpdate : AlamatNavigasi {
+object DestinasiUpdate : AlamatNavigasi{
     override val route = "update"
-    const val NIM ="nim"
+    const val NIM = "nim"
     val routesWithArg = "$route/{$NIM}"
 }
