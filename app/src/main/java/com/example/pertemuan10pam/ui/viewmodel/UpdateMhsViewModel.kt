@@ -12,6 +12,7 @@ import com.example.pertemuan10.viewmodel.MhsUIState
 import com.example.pertemuan10.viewmodel.toMahasiswaEntity
 import com.example.pertemuan10pam.data.entity.Mahasiswa
 import com.example.pertemuan10pam.data.repository.RepositoryMhs
+import com.example.pertemuan10pam.ui.navigation.DestinasiUpdate
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
@@ -23,7 +24,7 @@ class UpdateMhsViewModel (
     var updateUiState by mutableStateOf(MhsUIState())
         private set
 
-    private val _nim: String = checkNotNull(savedStateHandle[DestinasiEdit.NIM])
+    private val _nim: String = checkNotNull(savedStateHandle[DestinasiUpdate.NIM])
 
     init {
         viewModelScope.launch {
